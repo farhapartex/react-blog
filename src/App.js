@@ -4,6 +4,7 @@ import logo from './logo.svg';
 import './App.css';
 import BlogHome from "./component/BlogHome"
 import BlogDetail from "./component/BlogDetail"
+import AboutMe from "./component/AboutMe"
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
           <Switch>
             <Route exact path="/" component={BlogHome} />
             <Route exact path="/detail" component={BlogDetail} />
+            <Route exact path="/about-me" component={AboutMe} />
           </Switch>
         </div>
       </Router>

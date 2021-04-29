@@ -6,7 +6,7 @@ class BlogList extends Component {
         return (
             <div className="container-fluid mt-3">
                 <div className="row">
-                    <div className="col-7 mx-auto">
+                    <div className="blog-list mx-auto">
                         <SingleBlogBox></SingleBlogBox>
                         <SingleBlogBox></SingleBlogBox>
                         <SingleBlogBox></SingleBlogBox>

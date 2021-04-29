@@ -13,13 +13,13 @@ class BlogDetail extends Component {
         return (
             <div>
                 <NavBar></NavBar>
-                <div className="w-75 mx-auto mt-3 pt-3 pb-3 blog-details">
+                <div className="mx-auto mt-3 pt-3 pb-3 blog-details">
                     <div className="w-100">
-                        <img src={this.headerImage.default} height="450" width="1000" className=" mx-auto" />
+                        <img src={this.headerImage.default} className="headerImage mx-auto" />
                     </div>
                     <h1 className="title text-center mt-5"><b>India COVID death toll tops 200,000 as essential supplies run out</b></h1>
 
-                    <div className="w-100 mt-5">
+                    <div className="blog-content mt-5">
                         <p>India’s death toll from COVID-19 has crossed the grim milestone of 200,000 as the country continued to face shortages of hospital beds, medical oxygen and other essential supplies.</p>
                         <p>A calamitous second wave of the coronavirus has seen at least 300,000 people test positive each day for the past seven days, overwhelming health facilities and crematoriums and prompting an increasingly urgent response from allies overseas sending equipment.</p>
                         <p>
