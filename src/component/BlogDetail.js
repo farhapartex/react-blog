@@ -11,7 +11,7 @@ class BlogDetail extends Component {
 
     render() {
         return (
-            <div>
+            <div className="w-100">
                 <NavBar></NavBar>
                 <div className="mx-auto mt-3 pt-3 pb-3 blog-details">
                     <div className="w-100">

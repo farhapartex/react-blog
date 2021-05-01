@@ -10,7 +10,14 @@ class SingleBlogBox extends Component {
                 <div className="w-100 mt-2">
                     <p>India’s death toll from COVID-19 has crossed the grim milestone of 200,000 as the country continued to face shortages of hospital beds, medical oxygen and other essential supplies.</p>
                 </div>
-                <Link to="/detail">Read</Link>
+                <div className="w-100">
+                    <ul className="single-blog-utils">
+                        <li><Link to="/detail">Read</Link></li>
+                        <li>View(200)</li>
+                        <li>Comments(25)</li>
+                    </ul>
+                </div>
+
             </div>
         )
     }
