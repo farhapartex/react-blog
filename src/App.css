@@ -14,6 +14,17 @@
   font-size: 13px;
 }
 
+#footer-box{
+  background-color: #cccccc;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+#footer-box p{
+  padding: 0px !important;
+  margin: 0px !important;
+}
+
 @media screen and (min-width: 375px) {
 
   .headerImage{

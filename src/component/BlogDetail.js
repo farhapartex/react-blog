@@ -1,5 +1,6 @@
 import React, { Component } from "react"
 import NavBar from "./NavBar"
+import Footer from "./Footer"
 
 class BlogDetail extends Component {
     constructor(props) {
@@ -30,6 +31,7 @@ class BlogDetail extends Component {
                         </p>
                     </div>
                 </div>
+                <Footer></Footer>
             </div>
         )
     }

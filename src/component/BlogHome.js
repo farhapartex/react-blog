@@ -1,6 +1,7 @@
 import React, { Component } from "react"
 import NavBar from "./NavBar"
 import BlogList from "./BlogList"
+import Footer from "./Footer"
 
 class BlogHome extends Component {
     render() {
@@ -8,6 +9,7 @@ class BlogHome extends Component {
             <div>
                 <NavBar></NavBar>
                 <BlogList></BlogList>
+                <Footer></Footer>
             </div>
         )
     }
